@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 04adab5a8cc9d0f47be0138e89cb908c, type: 3}
+  m_Name: GameConstants
+  m_EditorClassIdentifier: 
+  playerMaxSpeed: 5
+  playerMaxJumpSpeed: 10
+  playerDefaultForce: 15
+  powerUpBlinkInterval: 0.5
+  powerupRedSlot: 0
+  powerUpRedTimeSteps: 10
+  powerUpRedIncrease: 10
+  powerupGreenSlot: 1
+  powerUpGreenTimeSteps: 20
+  powerUpGreenMultiplier: 2
+  breakTimeStep: 30
+  breakDebrisTorque: 10
+  breakDebrisForce: 10
+  debrisCount: 10
+  maxOffset: 5
+  enemyPatroltime: 2
+  enemySpawnPointCenterX: 25
+  enemySpawnPointCenterY: -2
+  groundSurface: -2
+  bounce: 5
